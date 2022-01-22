@@ -13,4 +13,4 @@ def testcalc():
 
 @pytest.mark.xfail
 def testcalc1():
-    assert 2+2 == 4
+    assert 2+2 == 6
