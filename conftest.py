@@ -30,3 +30,6 @@ def pytest_addoption(parser):
 @pytest.fixture(scope = "session", autouse = True)
 def browser(request):
     return request.config.getoption("--browser")
+
+def func():
+    pass
