@@ -33,3 +33,7 @@ def browser(request):
 
 def func():
     pass
+
+def func1():
+    pass
+
